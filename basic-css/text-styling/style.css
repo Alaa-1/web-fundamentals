@@ -1,0 +1,22 @@
+#cloud {
+    background-color: #000;
+    color: #fff;
+}
+
+span {
+    color: cyan;
+}
+
+#c-projects {
+    background-color: rebeccapurple;
+    color: snow;
+    font-style: italic;
+    text-align: center;
+}
+
+#contact {
+    background-color: skyblue;
+    color: #333;
+    text-align: right;
+    text-decoration: underline;
+}
