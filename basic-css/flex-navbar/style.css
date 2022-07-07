@@ -4,7 +4,7 @@
     align-items: center;
     background-color: #555;
     padding: 0 10px;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-title {
@@ -15,7 +15,6 @@
     list-style: none;
     display: flex;
     align-items: center;
-
 }
 
 li {
