@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    color: #fff;
+}
+
+
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-2 {
+    flex: 1 2 auto;
+}
+
+.col-3 {
+    flex: auto 2 3;
+}
+
+.row>div {
+    background-color: rebeccapurple;
+    padding: 20px;
+    margin: 10px;
+}
