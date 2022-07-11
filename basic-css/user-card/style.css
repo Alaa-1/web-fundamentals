@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 750px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.top-side {
+    background-color: #17A2B8;
+    flex: 1;
+}
+
+.profile-img {
+    position: absolute;
+    margin: 30px;
+    margin-left: 2em;
+    margin-top: 4em;
+}
+
+#user-img {
+    width: 5em;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.bottom-side {
+    background-color: whitesmoke;
+    flex: 3;
+}
+
+.bottom-side img {
+    width: 16px;
+    height: auto;
+}
+
+.info-bloc {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+p:first-of-type {
+    font-size: 25px;
+    margin-left: 10px;
+    display: inline;
+}
