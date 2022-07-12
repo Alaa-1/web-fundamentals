@@ -1,0 +1,105 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C1C1C1;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-title {
+    color: #000;
+}
+
+input[placeholder=Search] {
+    padding: 6px;
+    border: 2px solid #000;
+}
+
+.btn {
+    display: block;
+    font-size: 1em;
+    color: #fff;
+    background-color: #2B78E4;
+    border: solid 2px #000;
+    padding: 5px 10px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-panel,
+.right-panel {
+    /* display: flex; */
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+}
+
+.definition-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    margin: 20px 0;
+    padding: inherit;
+}
+
+.right-panel .add-definition {
+    border: 2px solid #000;
+    margin: 20px 0;
+    padding: inherit;
+    text-align: center;
+}
+
+.first-column {
+    text-align: center;
+}
+
+.likes {
+    margin-top: 10px;
+    background-color: #FFD966;
+    padding: 5px 10px;
+    border: solid 2px #000;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.second-column {
+    margin: 15px;
+}
+
+#add-button {
+    margin-top: 10px;
+    background-color: #93C47D;
+    font-size: 1em;
+    padding: 5px 10px;
+    border: solid 2px #000;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.word {
+    font-size: 3em;
+}
+
+.pos {
+    font-size: 25px;
+}
