@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dojo.css">
+    <!-- Google font 'Ubuntu' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300;400&display=swap"
+        rel="stylesheet">
+    <title>Button Clicker</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <div class="navbar">
+            <h1 class="nav-title">Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button class="btn" onclick="login(this)">Login</button>
+        </div>
+        <!-- container body -->
+        <div class="container-body">
+            <div class="left-panel">
+                <div class="definition-box">
+                    <div class="first-column">
+                        <p class="word">ninja</p>
+                        <p class="pos">noun</p>
+                        <p class="plural">Plural: ninjas</p>
+                        <button class="likes" onclick="alertLike(this)"> 13 likes</button>
+                    </div>
+                    <div class="second-column">
+                        <p class="definition">A practionner skilled n the <a href="#">Japanese</a> art of
+                            <a href="#">ninjutsu</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="definition-box">
+                    <div class="first-column">
+                        <p class="word">ninja</p>
+                        <p class="pos">noun</p>
+                        <p class="plural">Plural: ninjas</p>
+                        <button class="likes" onclick="alertLike(this)"> 37 likes</button>
+                    </div>
+                    <div class="second-column">
+                        <div>
+                            <p class="definition">A <a href="#">programmer</a> who breaks down problems with
+                                <a href="#">zen</a>-like focus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-panel">
+                <div class="add-definition">
+                    <p>Dojonary is defined by YOU</p>
+                    <button id="add-button" onclick="removeBtn(this)">Add definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="button-clicker.js"></script>
+
+</html>
