@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <div class="navbar">
+            <h1 class="nav-title">Network</h1>
+        </div>
+        <div class="container-body">
+            <div class="col-1">
+                <div class="user-card">
+                    <img src="icons/user-circle.png" alt="avatar image" id="user-img">
+                    <a href="#">Add an avatar</a>
+                    <p class="user-name">James Doe</p>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="post">
+                    <div class="row-1">
+                        <div class="user-name">Some User</div>
+                        <div class="likes-count" id="btn-1">9 like(s)</div>
+                        <button type="button" class="like-btn" id="btn-1" onclick="thumbsUp(this.id)">Like</button>
+                    </div>
+                    <div class="row-2">
+                        <p class="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam soluta, corrupti rem ipsum
+                            cumque
+                            quo dicta modi hic est quos ea ab explicabo, maxime illum dolorem alias harum. Dolorum,
+                            tempora!
+                        </p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="row-1">
+                        <div class="user-name">Some User</div>
+                        <div class="likes-count" id="btn-2">12 like(s)</div>
+                        <button type="button" class="like-btn" id="btn-2" onclick="thumbsUp(this.id)">Like</button>
+                    </div>
+                    <div class="row-2">
+                        <p class="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam soluta, corrupti rem ipsum
+                            cumque
+                            quo dicta modi hic est quos ea ab explicabo, maxime illum dolorem alias harum. Dolorum,
+                            tempora!
+                        </p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="row-1">
+                        <div class="user-name">Some User</div>
+                        <div class="likes-count" id="btn-3">9 like(s)</div>
+                        <button type="button" class="like-btn" id="btn-3" onclick="thumbsUp(this.id)">Like</button>
+                    </div>
+                    <div class="row-2">
+                        <p class="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam soluta, corrupti rem ipsum
+                            cumque
+                            quo dicta modi hic est quos ea ab explicabo, maxime illum dolorem alias harum. Dolorum,
+                            tempora!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
